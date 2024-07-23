@@ -1,3 +1,15 @@
 body {
   background-color: pink;
 }
+
+.normal-paragraph {
+  background-color: red;
+}
+
+.not-normal-paragraph {
+  background-color: blue;
+}
+
+#last-paragraph {
+  background-color: aqua;
+}
