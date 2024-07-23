@@ -1,23 +1,36 @@
 body {
   background-image: url("./img/superman.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
 }
 
 #login-box {
   background-color: white;
   width: 500px;
-  height: 500px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border-radius: 20px;
 }
 
 #login-box input {
   width: 300px;
 }
 
-#login-box div {
+#login-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
+#login-buttons button {
+  background-color: red;
+  color: yellow;
+  height: 40px;
+  width: 80px;
+}
+
