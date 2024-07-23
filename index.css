@@ -1,15 +1,23 @@
 body {
-  background-color: pink;
+  background-image: url("./img/superman.jpg");
 }
 
-.normal-paragraph {
-  background-color: red;
+#login-box {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.not-normal-paragraph {
-  background-color: blue;
+#login-box input {
+  width: 300px;
 }
 
-#last-paragraph {
-  background-color: aqua;
+#login-box div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
